@@ -10,7 +10,6 @@
 		0A009813237B560C0015E9C9 /* AzureStorageBlob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6864B4233E8C8E004B7E17 /* AzureStorageBlob.framework */; };
 		0A009814237B560C0015E9C9 /* AzureStorageBlob.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6864B4233E8C8E004B7E17 /* AzureStorageBlob.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A009816237B560E0015E9C9 /* AzureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3A5E9B2315E8BE00473FDA /* AzureCore.framework */; };
-		0A009817237B560E0015E9C9 /* AzureCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3A5E9B2315E8BE00473FDA /* AzureCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A138BA7241C0B21004F3FB2 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A138BA6241C0B21004F3FB2 /* CustomCells.swift */; };
 		0A215831242C314E0060BFA0 /* BlobUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A215830242C314E0060BFA0 /* BlobUploadViewController.swift */; };
 		0A25EA53239814410012DFE1 /* Pods_AzureSDKDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F31A5A26BA837DAEC8BD8E4 /* Pods_AzureSDKDemoSwift.framework */; };
@@ -24,6 +23,12 @@
 		0A71C5CD234BE85700604F2D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71C5CC234BE85700604F2D /* Common.swift */; };
 		0AF03F1C2433EE80002E65F8 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF03F1B2433EE80002E65F8 /* CustomTabBarController.swift */; };
 		3124154A26BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3124154926BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift */; };
+		3124155226BDBF58001C3523 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155126BDBF58001C3523 /* libswiftCore.tbd */; };
+		3124155426BDBF6E001C3523 /* libswiftCoreGraphics.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155326BDBF6E001C3523 /* libswiftCoreGraphics.tbd */; };
+		3124155626BDBF7C001C3523 /* libswiftDispatch.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155526BDBF7C001C3523 /* libswiftDispatch.tbd */; };
+		3124155826BDBF87001C3523 /* libswiftFoundation.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155726BDBF87001C3523 /* libswiftFoundation.tbd */; };
+		3124155A26BDBF94001C3523 /* libswiftObjectiveC.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155926BDBF94001C3523 /* libswiftObjectiveC.tbd */; };
+		3124155C26BDBF9F001C3523 /* libswiftUIKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3124155B26BDBF9F001C3523 /* libswiftUIKit.tbd */; };
 		7AB817E7248F159D00819F53 /* AzureIdentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB817E6248F159D00819F53 /* AzureIdentity.framework */; };
 		7AB817E8248F159D00819F53 /* AzureIdentity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB817E6248F159D00819F53 /* AzureIdentity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -48,7 +53,6 @@
 				7AB817E8248F159D00819F53 /* AzureIdentity.framework in Embed Frameworks */,
 				0A25EA54239814410012DFE1 /* Pods_AzureSDKDemoSwift.framework in Embed Frameworks */,
 				0A009814237B560C0015E9C9 /* AzureStorageBlob.framework in Embed Frameworks */,
-				0A009817237B560E0015E9C9 /* AzureCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +79,12 @@
 		3124154726BDB27C001C3523 /* AzureSDKDemoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureSDKDemoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3124154926BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureSDKDemoSwiftUITests.swift; sourceTree = "<group>"; };
 		3124154B26BDB27C001C3523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3124155126BDBF58001C3523 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = usr/lib/swift/libswiftCore.tbd; sourceTree = SDKROOT; };
+		3124155326BDBF6E001C3523 /* libswiftCoreGraphics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreGraphics.tbd; path = usr/lib/swift/libswiftCoreGraphics.tbd; sourceTree = SDKROOT; };
+		3124155526BDBF7C001C3523 /* libswiftDispatch.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDispatch.tbd; path = usr/lib/swift/libswiftDispatch.tbd; sourceTree = SDKROOT; };
+		3124155726BDBF87001C3523 /* libswiftFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFoundation.tbd; path = usr/lib/swift/libswiftFoundation.tbd; sourceTree = SDKROOT; };
+		3124155926BDBF94001C3523 /* libswiftObjectiveC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftObjectiveC.tbd; path = usr/lib/swift/libswiftObjectiveC.tbd; sourceTree = SDKROOT; };
+		3124155B26BDBF9F001C3523 /* libswiftUIKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftUIKit.tbd; path = usr/lib/swift/libswiftUIKit.tbd; sourceTree = SDKROOT; };
 		7AB817E6248F159D00819F53 /* AzureIdentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AzureIdentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F31A5A26BA837DAEC8BD8E4 /* Pods_AzureSDKDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureSDKDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A776A40094923B6F31057B /* Pods-AzureSDKDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureSDKDemoSwift.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-AzureSDKDemoSwift/Pods-AzureSDKDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3124155C26BDBF9F001C3523 /* libswiftUIKit.tbd in Frameworks */,
+				3124155A26BDBF94001C3523 /* libswiftObjectiveC.tbd in Frameworks */,
+				3124155826BDBF87001C3523 /* libswiftFoundation.tbd in Frameworks */,
+				3124155626BDBF7C001C3523 /* libswiftDispatch.tbd in Frameworks */,
+				3124155426BDBF6E001C3523 /* libswiftCoreGraphics.tbd in Frameworks */,
+				3124155226BDBF58001C3523 /* libswiftCore.tbd in Frameworks */,
 				7AB817E7248F159D00819F53 /* AzureIdentity.framework in Frameworks */,
 				0A25EA53239814410012DFE1 /* Pods_AzureSDKDemoSwift.framework in Frameworks */,
 				0A009813237B560C0015E9C9 /* AzureStorageBlob.framework in Frameworks */,
@@ -152,6 +168,12 @@
 		0A3A5E9A2315E76A00473FDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3124155B26BDBF9F001C3523 /* libswiftUIKit.tbd */,
+				3124155926BDBF94001C3523 /* libswiftObjectiveC.tbd */,
+				3124155726BDBF87001C3523 /* libswiftFoundation.tbd */,
+				3124155526BDBF7C001C3523 /* libswiftDispatch.tbd */,
+				3124155326BDBF6E001C3523 /* libswiftCoreGraphics.tbd */,
+				3124155126BDBF58001C3523 /* libswiftCore.tbd */,
 				7AB817E6248F159D00819F53 /* AzureIdentity.framework */,
 				0A3A5E9B2315E8BE00473FDA /* AzureCore.framework */,
 				0A6864B4233E8C8E004B7E17 /* AzureStorageBlob.framework */,
@@ -523,6 +545,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.examples.AzureSDKDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -541,6 +567,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.examples.AzureSDKDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
