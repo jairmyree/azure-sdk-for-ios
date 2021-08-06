@@ -23,9 +23,20 @@
 		0A71C5CB234BE18200604F2D /* BlobDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71C5CA234BE18200604F2D /* BlobDownloadViewController.swift */; };
 		0A71C5CD234BE85700604F2D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71C5CC234BE85700604F2D /* Common.swift */; };
 		0AF03F1C2433EE80002E65F8 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF03F1B2433EE80002E65F8 /* CustomTabBarController.swift */; };
+		3124154A26BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3124154926BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift */; };
 		7AB817E7248F159D00819F53 /* AzureIdentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB817E6248F159D00819F53 /* AzureIdentity.framework */; };
 		7AB817E8248F159D00819F53 /* AzureIdentity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB817E6248F159D00819F53 /* AzureIdentity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3124154C26BDB27C001C3523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3A5E6E2315E70400473FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3A5E752315E70400473FDA;
+			remoteInfo = AzureSDKDemoSwift;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0A009815237B560C0015E9C9 /* Embed Frameworks */ = {
@@ -61,6 +72,9 @@
 		0A80BD55239EEFD400491345 /* AzureSDKDemoSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzureSDKDemoSwift.entitlements; sourceTree = "<group>"; };
 		0AF03F1B2433EE80002E65F8 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		1C261B405813394338B82960 /* Pods-AzureSDKDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureSDKDemoSwift.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-AzureSDKDemoSwift/Pods-AzureSDKDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		3124154726BDB27C001C3523 /* AzureSDKDemoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureSDKDemoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3124154926BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureSDKDemoSwiftUITests.swift; sourceTree = "<group>"; };
+		3124154B26BDB27C001C3523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AB817E6248F159D00819F53 /* AzureIdentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AzureIdentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F31A5A26BA837DAEC8BD8E4 /* Pods_AzureSDKDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureSDKDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A776A40094923B6F31057B /* Pods-AzureSDKDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureSDKDemoSwift.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-AzureSDKDemoSwift/Pods-AzureSDKDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +92,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3124154426BDB27C001C3523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +107,7 @@
 			children = (
 				0A80BD55239EEFD400491345 /* AzureSDKDemoSwift.entitlements */,
 				0A3A5E782315E70400473FDA /* Source */,
+				3124154826BDB27C001C3523 /* AzureSDKDemoSwiftUITests */,
 				0A3A5E772315E70400473FDA /* Products */,
 				0A3A5E9A2315E76A00473FDA /* Frameworks */,
 				4C375ED566D3549B21D90708 /* Pods */,
@@ -96,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3A5E762315E70400473FDA /* AzureSDKDemoSwift.app */,
+				3124154726BDB27C001C3523 /* AzureSDKDemoSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +160,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3124154826BDB27C001C3523 /* AzureSDKDemoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3124154926BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift */,
+				3124154B26BDB27C001C3523 /* Info.plist */,
+			);
+			path = AzureSDKDemoSwiftUITests;
+			sourceTree = "<group>";
+		};
 		4C375ED566D3549B21D90708 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,19 +203,41 @@
 			productReference = 0A3A5E762315E70400473FDA /* AzureSDKDemoSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3124154626BDB27C001C3523 /* AzureSDKDemoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3124155026BDB27C001C3523 /* Build configuration list for PBXNativeTarget "AzureSDKDemoSwiftUITests" */;
+			buildPhases = (
+				3124154326BDB27C001C3523 /* Sources */,
+				3124154426BDB27C001C3523 /* Frameworks */,
+				3124154526BDB27C001C3523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3124154D26BDB27C001C3523 /* PBXTargetDependency */,
+			);
+			name = AzureSDKDemoSwiftUITests;
+			productName = AzureSDKDemoSwiftUITests;
+			productReference = 3124154726BDB27C001C3523 /* AzureSDKDemoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0A3A5E6E2315E70400473FDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Azure SDK Team";
 				TargetAttributes = {
 					0A3A5E752315E70400473FDA = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1110;
+					};
+					3124154626BDB27C001C3523 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0A3A5E752315E70400473FDA;
 					};
 				};
 			};
@@ -201,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				0A3A5E752315E70400473FDA /* AzureSDKDemoSwift */,
+				3124154626BDB27C001C3523 /* AzureSDKDemoSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,6 +268,13 @@
 				0A3A5E842315E70500473FDA /* LaunchScreen.storyboard in Resources */,
 				0A3A5E812315E70500473FDA /* Assets.xcassets in Resources */,
 				0A3A5E7F2315E70400473FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3124154526BDB27C001C3523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +355,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3124154326BDB27C001C3523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3124154A26BDB27C001C3523 /* AzureSDKDemoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3124154D26BDB27C001C3523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3A5E752315E70400473FDA /* AzureSDKDemoSwift */;
+			targetProxy = 3124154C26BDB27C001C3523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0A3A5E7D2315E70400473FDA /* Main.storyboard */ = {
@@ -471,6 +549,46 @@
 			};
 			name = Release;
 		};
+		3124154E26BDB27C001C3523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQB5E94758;
+				INFOPLIST_FILE = AzureSDKDemoSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jairmyree.AzureSDKDemoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzureSDKDemoSwift;
+			};
+			name = Debug;
+		};
+		3124154F26BDB27C001C3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQB5E94758;
+				INFOPLIST_FILE = AzureSDKDemoSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jairmyree.AzureSDKDemoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzureSDKDemoSwift;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,6 +606,15 @@
 			buildConfigurations = (
 				0A3A5E942315E70600473FDA /* Debug */,
 				0A3A5E952315E70600473FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3124155026BDB27C001C3523 /* Build configuration list for PBXNativeTarget "AzureSDKDemoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3124154E26BDB27C001C3523 /* Debug */,
+				3124154F26BDB27C001C3523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

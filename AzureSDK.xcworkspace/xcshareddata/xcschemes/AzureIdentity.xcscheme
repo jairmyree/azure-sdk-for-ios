@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A3A5E752315E70400473FDA"
-               BuildableName = "AzureSDKDemoSwift.app"
-               BlueprintName = "AzureSDKDemoSwift"
-               ReferencedContainer = "container:AzureSDKDemoSwift.xcodeproj">
+               BlueprintIdentifier = "7AE9D566248EF6400029003C"
+               BuildableName = "AzureIdentity.framework"
+               BlueprintName = "AzureIdentity"
+               ReferencedContainer = "container:sdk/identity/AzureIdentity/AzureIdentity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,8 +26,20 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7AE9D56F248EF6400029003C"
+               BuildableName = "AzureIdentityTests.xctest"
+               BlueprintName = "AzureIdentityTests"
+               ReferencedContainer = "container:sdk/identity/AzureIdentity/AzureIdentity.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -40,16 +52,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A3A5E752315E70400473FDA"
-            BuildableName = "AzureSDKDemoSwift.app"
-            BlueprintName = "AzureSDKDemoSwift"
-            ReferencedContainer = "container:AzureSDKDemoSwift.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +59,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A3A5E752315E70400473FDA"
-            BuildableName = "AzureSDKDemoSwift.app"
-            BlueprintName = "AzureSDKDemoSwift"
-            ReferencedContainer = "container:AzureSDKDemoSwift.xcodeproj">
+            BlueprintIdentifier = "7AE9D566248EF6400029003C"
+            BuildableName = "AzureIdentity.framework"
+            BlueprintName = "AzureIdentity"
+            ReferencedContainer = "container:sdk/identity/AzureIdentity/AzureIdentity.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
