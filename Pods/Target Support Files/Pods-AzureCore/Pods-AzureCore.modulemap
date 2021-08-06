@@ -1,0 +1,6 @@
+framework module Pods_AzureCore {
+  umbrella header "Pods-AzureCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

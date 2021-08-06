@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AzureCommunicationChatTests/Pods-AzureCommunicationChatTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DVR/DVR.framework
+${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Trouter/Trouter.framework/Trouter
